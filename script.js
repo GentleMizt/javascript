@@ -104,3 +104,4 @@ console.log(firstName.toUpperCase());
 // JS strings start counting from position 0 not 1
 console.log(firstName.charAt(2));
 console.log(firstName.indexOf("n"));
+console.log(firstName.substring(0,3))
