@@ -199,16 +199,30 @@ console.log(carsILike.concat(myFavFoods));
 // TEACHING YOUR CODE
 // IF ELSE STATEMENT
 
-myCondition = prompt("What is your mother tongue?");
-if (myCondition === "English") {
-    alert('Good Morning');
-}
-else if (myCondition === "French"){
-    alert("Bonjour");
-}
-else if (myCondition === "Yoruba") {
-    alert("Ekaaro");
-}
-else{
-    alert("Language not Supported");
-}
+// myCondition = prompt("What is your mother tongue?");
+// if (myCondition === "English") {
+//     alert('Good Morning');
+// }
+// else if (myCondition === "French"){
+//     alert("Bonjour");
+// }
+// else if (myCondition === "Yoruba") {
+//     alert("Ekaaro");
+// }
+// else{
+//     alert("Language not Supported");
+// }
+
+// GUESSING GAME
+
+// let guessNum = Math.random() *10;
+// guessNum = Math.round(guessNum);
+
+// let userNum = Number( prompt("Guess the Number"));
+
+// if (userNum === guessNum) {
+//     alert("CONGRATULATIONS!!!")
+// }
+// else {
+//     alert("Wrong guess, Try Again!!")
+// }
