@@ -261,14 +261,10 @@
 
 // LOOPS
 // FOR LOOP
-
-// let myCars = ["BMW", "Volvo", "Honda", "Toyota"];
-
-// for (let i = 0; i < myCars.length; i++){
-//     console.log(myCars[i]);
-// }
-
-
-for (let i = 0;; i++) {
-    console.log("Hello")
+let num = Number(prompt("Provide a number"));
+if (num % 2 === 0) {
+    alert("The number is an even number");
+}
+else {
+    alert("The number is an odd number");
 }
