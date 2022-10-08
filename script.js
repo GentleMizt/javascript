@@ -262,8 +262,13 @@
 // LOOPS
 // FOR LOOP
 
-let myCars = ["BMW", "Volvo", "Honda", "Toyota"];
+// let myCars = ["BMW", "Volvo", "Honda", "Toyota"];
 
-for (let i = 0; i < myCars.length; i++){
-    console.log(myCars[i]);
+// for (let i = 0; i < myCars.length; i++){
+//     console.log(myCars[i]);
+// }
+
+
+for (let i = 0;; i++) {
+    console.log("Hello")
 }
