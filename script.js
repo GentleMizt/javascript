@@ -179,3 +179,36 @@ console.log(carsILike);
 // ADDING TWO ARRAYS TOGETHER
 let myFavFoods = ["Beans", "Bread", "Dodo", "Chicken"]
 console.log(carsILike.concat(myFavFoods));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CONDITIONALS!!!!!!!!!!!!!!!!!!!!!!!
+// THE HEART OF PROGRAMMING
+// TEACHING YOUR CODE
+// IF ELSE STATEMENT
+
+myCondition = prompt("What is your mother tongue?");
+if (myCondition === "English") {
+    alert('Good Morning');
+}
+else if (myCondition === "French"){
+    alert("Bonjour");
+}
+else if (myCondition === "Yoruba") {
+    alert("Ekaaro");
+}
+else{
+    alert("Language not Supported");
+}
