@@ -227,19 +227,33 @@
 //     alert("Wrong guess, Try Again!!")
 // }
 
-let myOperation = Number(prompt("For Addition press1 For Subtraction press2 For Multiplication 3 For Division press4"));
-let firstNum = Number(prompt("Input the first number"));
-let secondNum = Number(prompt("Input the second number"));
+// let myOperation = Number(prompt("For Addition press1 For Subtraction press2 For Multiplication 3 For Division press4"));
+// let firstNum = Number(prompt("Input the first number"));
+// let secondNum = Number(prompt("Input the second number"));
 
-if (myOperation === 1) {
-    alert(firstNum + secondNum);
+// if (myOperation === 1) {
+//     alert(firstNum + secondNum);
+// }
+// else if (myOperation === 2) {
+//     alert(firstNum - secondNum);
+// }
+// else if (myOperation === 3) {
+//     alert(firstNum * secondNum);
+// }
+// else if (myOperation === 4) {
+//     alert(firstNum / secondNum);
+// }
+
+// Making a Keyless Car
+let standardAge = 18;
+let userAge = Number(prompt("Input your Age"));
+
+if (userAge < standardAge) {
+    alert("Sorry, you are too young to drive this car. Powering Off!");
 }
-else if (myOperation === 2) {
-    alert(firstNum - secondNum);
+else if (userAge > standardAge) {
+    alert("Powering On, Enjoy the ride!");
 }
-else if (myOperation === 3) {
-    alert(firstNum * secondNum);
-}
-else if (myOperation === 4) {
-    alert(firstNum / secondNum);
+else if (userAge = standardAge) {
+    alert("Congratulations on your first year of driving. Enjoy the ride!");
 }
