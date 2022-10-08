@@ -245,15 +245,25 @@
 // }
 
 // Making a Keyless Car
-let standardAge = 18;
-let userAge = Number(prompt("Input your Age"));
+// let standardAge = 18;
+// let userAge = Number(prompt("Input your Age"));
 
-if (userAge < standardAge) {
-    alert("Sorry, you are too young to drive this car. Powering Off!");
-}
-else if (userAge > standardAge) {
-    alert("Powering On, Enjoy the ride!");
-}
-else if (userAge = standardAge) {
-    alert("Congratulations on your first year of driving. Enjoy the ride!");
+// if (userAge < standardAge) {
+//     alert("Sorry, you are too young to drive this car. Powering Off!");
+// }
+// else if (userAge > standardAge) {
+//     alert("Powering On, Enjoy the ride!");
+// }
+// else if (userAge = standardAge) {
+//     alert("Congratulations on your first year of driving. Enjoy the ride!");
+// }
+
+
+// LOOPS
+// FOR LOOP
+
+let myCars = ["BMW", "Volvo", "Honda", "Toyota"];
+
+for (let i = 0; i < myCars.length; i++){
+    console.log(myCars[i]);
 }
