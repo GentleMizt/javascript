@@ -261,10 +261,83 @@
 
 // LOOPS
 // FOR LOOP
-let num = Number(prompt("Provide a number"));
-if (num % 2 === 0) {
-    alert("The number is an even number");
-}
-else {
-    alert("The number is an odd number");
-}
+
+// let myCars = ["BMW", "Volvo", "Honda", "Toyota"];
+
+// for (let i = 0; i < myCars.length; i++){
+//     console.log(myCars[i]);
+// }
+
+// let num = Number(prompt("Provide a number"));
+// if (num % 2 === 0) {
+//     alert("The number is an even number");
+// }
+// else {
+//     alert("The number is an odd number");
+// }
+
+// for (let i = 0; i <= 20; i++){
+//     if (i % 2 === 0){
+//         console.log(i);
+//     }
+// }
+
+// let a = 4;
+// a === 4 ? console.log("correct") : console.log("wrong")
+
+// FUNCTIONS!!
+
+// function declaration
+// function greet(){
+//     console.log("hello there");
+// }
+// function expression
+// const speak = function(name = `nabasf`, time = `night`){
+//     console.log(`Good ${time} ${name}`)
+// };
+
+// regular function
+// const calcArea = function(radius){
+//     return 3.142 * radius**2;
+// };
+
+// arrow function
+// const calcArea = radius => 3.142 * radius**2;
+// const area = calcArea(5);
+// console.log('area is', area);
+
+// Practice questions under Arrow functions
+    // NO1
+// const greet = function(){
+//     return 'hello world';
+// }
+// const greet = () => 'hello world';
+// const result = greet();
+// console.log(result);
+
+    // NO2
+// const bill = function(products, tax){
+//     let total = 0;
+//     for(let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax;
+//     }
+//     return total;
+// }
+
+//     const bill = (products, tax) =>{
+//         let total = 0;
+//         for(let i = 0; i < products.length; i++){
+//             total += products[i] + products[i] * tax;
+//         }
+//         return total;
+//     };
+
+// console.log(bill([10,15,30],0.2));
+    // const name2 = 'lancer';
+    // const greet = () => 'hello';
+    // let result1 = greet();
+    // console.log(result1);
+
+    // // METHODS
+    // let result2 = name2.toUpperCase();
+    // console.log(result2);
