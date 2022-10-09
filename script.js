@@ -341,3 +341,28 @@
     // // METHODS
     // let result2 = name2.toUpperCase();
     // console.log(result2);
+
+    // CALLBACKS AND FOREACH
+
+    // const myFunc = (callBackFunc) => {
+    //     // do something
+    //     let value = 50;
+    //     callBackFunc(value);
+    // };
+
+    // myFunc(value => {
+    //     // do something
+    //     console.log(value);
+    // });
+
+    // let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+
+    // const logPerson = (person, index) => {
+    //     console.log( `${index} - hello ${person}`)
+    // }
+    // people.forEach(logPerson);
+
+    // get a reference to the 'ul'
+    const ul = document.querySelector('.people');
+
+    const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li']
