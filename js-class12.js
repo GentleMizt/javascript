@@ -1,0 +1,71 @@
+// let user = prompt('who is there?');
+
+//     if (user !== ""){
+//         alert(`Welcome ${user}`);
+//     };
+
+    // function sayHello(){
+    //     let user = prompt('Who is there?')
+    //     if (user !== ''){
+    //         alert(`Welcome ${user}`);
+    //     }
+    //     else if( user === ''){
+    //         alert('No one is at the door')
+    //     }
+    // };
+    
+
+    // // function to solve a simple math OP 
+    // function mathOP(a, b){
+    //     return 2 * a + Math.pow(b, 2);
+    // };
+    
+    // let answer = mathOP(3,5);
+    // console.log(answer);
+
+    // Arrow Functions
+    // function greet(name){
+    //     return `good morning ${name}`;
+    // }
+
+
+    greet = (name) => `good morning ${name}`;
+
+    // OBJRCTS
+
+    let user = {
+        firstname: 'Samuel',
+        lastname: 'Oketola',
+        username: 'dprince123',
+        hobbies: ['swimming', 'movies', 'coding', 'gaming'],
+        aboutMe: function (){
+            console.log('I love playing videogames, coding and meeting new people.');
+        }
+    }
+
+    let user3 = {
+            firstname: 'lancer',
+            lastname: 'nabasf',
+            username: 'gentlemizt',
+            hobbies: ['reading', 'coding', 'gaming', 'eating'],
+            aboutMe: () => {
+                console.log('Hello there, I no love JS ooo')
+            }
+    }
+    // creating multiple user objectss in an array
+    let users = [
+        user,
+        {
+            firstname: 'seun',
+            lastname: 'unknown',
+            username: 'seunjs',
+            hobbies: ['reading', 'coding'],
+            aboutMe: function(){
+                console.log('Hello there, I love JS')
+            }
+        },
+        user3
+    ];
+    
+    console.log(users);
+    console.log(users[2]);
