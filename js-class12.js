@@ -4,7 +4,7 @@ let individual = prompt('who is there?');
         alert(`Welcome ${individual}`);
     }
     else if(individual === ''){
-        alert('No one is at the door');
+        alert('No one is at the door GO HOME!!!!!!!!!');
     };
 
     // function sayHello(){
