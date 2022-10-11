@@ -107,5 +107,21 @@ let individual = prompt('who is there?');
     // }
     // If we want to access both the key and the value, we concatenate, to do that
     for (let prop in user4){
-        console.log(`${prop} ${user4[prop]}`);
+        console.log(`${prop}: ${user4[prop]}`);
     }
+    // To get the object length or rather the number of object's keys we have in the object, we make use of 
+    // object.keys(object_name).length
+    // console.log( Object.keys(user).length );
+
+    // ALTERNATIVELY, we can make use of just the 'for loops' to iterate through an object
+    // to do that instead of us manually specifying the limit of the looping, we can specify it to get the amount of items 
+    // in the object then take it as it's limit. 
+    // Which was why we made ourselves known to how we can get the length of object's keys.
+
+    // for (let i = 0; i < Object.keys(user4).length; i++){
+    //     // doing this now, the code is going to run 6 times 
+        
+    // }
+
+    //But the general way of iterating or looping through objects, we make use of the 'For In Loop'
+    
