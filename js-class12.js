@@ -52,6 +52,19 @@
                 console.log('Hello there, I no love JS ooo')
             }
     }
+
+    let user4 = {
+        firstname: 'Olamide',
+        lastname: 'Iyanda',
+        age: 19,
+        email: 'olamideiyanda18@gmail.com',
+        fullname: function(){
+          return `${this.firstname} ${this.lastname}` 
+        },
+        about(){
+            return `I am ${this.age} years old. My email is ${user4['email']}`;
+        }
+    }
     // creating multiple user objectss in an array
     let users = [
         user,
@@ -60,12 +73,22 @@
             lastname: 'unknown',
             username: 'seunjs',
             hobbies: ['reading', 'coding'],
-            aboutMe: function(){
+            fullname: function(){
+                return `${this.firstname} ${this.lastname}` 
+              },
+            aboutMe(){
                 console.log('Hello there, I love JS')
             }
         },
-        user3
+        user3,
     ];
     
-    console.log(users);
-    console.log(users[2]);
+    // to access a property in an object, the syntax used is usually the
+    // object.property syntax
+    // console.log(user4.fullname());
+    // console.log(users[1].aboutMe());
+
+    // For In Loop
+    for (let prop in user4){
+        console.log(user4);
+    }
