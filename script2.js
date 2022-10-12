@@ -60,17 +60,10 @@
     // console.log(random); 
     // console.log(Math.round(random * 100));
 
-    // WHILE LOOOPS
-    // let tryAgain = true;
-    // while (tryAgain === true){
-    //     let userNum = Number(prompt('Guess a number between 0 - 10'));
-    //     let guessNum = Math.round(Math.random() * 10);
-    //     if (guessNum === userNum){
-    //         alert('CONGRATULATIONS!!!!!')
-    //         tryAgain = false;
-    //     }
-    //     else{
-    //         alert('WRONG GUESS TRY AGAIN')
-    //         tryAgain = true;
-    //     }
-    // }
+    // THE DOCUMENT OBJECT MODEL
+    // const para = document.querySelector('body > h1');
+    // console.log(para);
+
+    const paras = document.querySelectorAll('p');
+    const errors = document.querySelectorAll('.error');
+    console.log(errors);
