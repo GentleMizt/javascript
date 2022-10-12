@@ -1,11 +1,11 @@
-let individual = prompt('who is there?');
+// let individual = prompt('who is there?');
 
-    if (individual !== ""){
-        alert(`Welcome ${individual}`);
-    }
-    else if(individual === ''){
-        alert('No one is at the door GO HOME!!!!!!!!!');
-    };
+//     if (individual !== ""){
+//         alert(`Welcome ${individual}`);
+//     }
+//     else if(individual === ''){
+//         alert('No one is at the door GO HOME!!!!!!!!!');
+//     };
 
     // function sayHello(){
     //     let user = prompt('Who is there?')
@@ -32,64 +32,64 @@ let individual = prompt('who is there?');
     // }
 
 
-    greet = (name) => `good morning ${name}`;
+    // greet = (name) => `good morning ${name}`;
 
     // OBJRCTS
 
-    let user = {
-        firstname: 'Samuel',
-        lastname: 'Oketola',
-        username: 'dprince123',
-        hobbies: ['swimming', 'movies', 'coding', 'gaming'],
-        aboutMe: function (){
-            console.log('I love playing videogames, coding and meeting new people.');
-        }
-    }
+    // let user = {
+    //     firstname: 'Samuel',
+    //     lastname: 'Oketola',
+    //     username: 'dprince123',
+    //     hobbies: ['swimming', 'movies', 'coding', 'gaming'],
+    //     aboutMe: function (){
+    //         console.log('I love playing videogames, coding and meeting new people.');
+    //     }
+    // }
 
-    let user3 = {
-            firstname: 'lancer',
-            lastname: 'nabasf',
-            username: 'gentlemizt',
-            hobbies: ['reading', 'coding', 'gaming', 'eating'],
-            aboutMe: () => {
-                console.log('Hello there, I no love JS ooo')
-            }
-    }
+    // let user3 = {
+    //         firstname: 'lancer',
+    //         lastname: 'nabasf',
+    //         username: 'gentlemizt',
+    //         hobbies: ['reading', 'coding', 'gaming', 'eating'],
+    //         aboutMe: () => {
+    //             console.log('Hello there, I no love JS ooo')
+    //         }
+    // }
 
-    let user4 = {
-        firstname: 'Olamide',
-        lastname: 'Iyanda',
-        age: 19,
-        email: 'olamideiyanda18@gmail.com',
-        fullname: function(){
-          return `${this.firstname} ${this.lastname}` 
-        },
-        about(){
-            return `I am ${this.age} years old. My email is ${user4['email']}`;
-        }
-    }
+    // let user4 = {
+    //     firstname: 'Olamide',
+    //     lastname: 'Iyanda',
+    //     age: 19,
+    //     email: 'olamideiyanda18@gmail.com',
+    //     fullname: function(){
+    //       return `${this.firstname} ${this.lastname}` 
+    //     },
+    //     about(){
+    //         return `I am ${this.age} years old. My email is ${user4['email']}`;
+    //     }
+    // }
     // creating multiple user objectss in an array
-    let users = [
-        user,
-        {
-            firstname: 'seun',
-            lastname: 'unknown',
-            username: 'seunjs',
-            hobbies: ['reading', 'coding'],
-            fullname: function(){
-                return `${this.firstname} ${this.lastname}` 
-              },
-            aboutMe(){
-                console.log('Hello there, I love JS')
-            }
-        },
-        user3,
-    ];
+    // let users = [
+    //     user,
+    //     {
+    //         firstname: 'seun',
+    //         lastname: 'unknown',
+    //         username: 'seunjs',
+    //         hobbies: ['reading', 'coding'],
+    //         fullname: function(){
+    //             return `${this.firstname} ${this.lastname}` 
+    //           },
+    //         aboutMe(){
+    //             console.log('Hello there, I love JS')
+    //         }
+    //     },
+    //     user3,
+    // ];
     
     // to access a property in an object, the syntax used is usually the
     // object.property syntax
-    console.log(user4.fullname());
-    console.log(users[1].aboutMe());
+    // console.log(user4.fullname());
+    // console.log(users[1].aboutMe());
 
     // For In Loop 
     // for (let prop in user4){
@@ -106,9 +106,9 @@ let individual = prompt('who is there?');
     //     console.log(user4[prop]);
     // }
     // If we want to access both the key and the value, we concatenate, to do that
-    for (let prop in user4){
-        console.log(`${prop}: ${user4[prop]}`);
-    }
+    // for (let prop in user4){
+    //     console.log(`${prop}: ${user4[prop]}`);
+    // }
     // To get the object length or rather the number of object's keys we have in the object, we make use of 
     // object.keys(object_name).length
     // console.log( Object.keys(user).length );
@@ -125,3 +125,18 @@ let individual = prompt('who is there?');
 
     //But the general way of iterating or looping through objects, we make use of the 'For In Loop'
     
+    // WHILE LOOPS
+    
+    let tryAgain = true;
+    while (tryAgain === true){
+        let userNum = Number(prompt('Guess a number between 0 - 10'));
+        let guessNum = Math.round(Math.random() * 10);
+        if (guessNum === userNum){
+            alert('CONGRATULATIONS BOYY!!!!!')
+            tryAgain = false;
+        }
+        else{
+            alert('WRONG GUESS TRY AGAIN')
+            // tryAgain = true;
+        }
+    }

@@ -44,19 +44,33 @@
     // user.logBlogs();
     
     // MATH OBJECT
-    console.log(Math);
-    console.log(Math.PI);
-    console.log(Math.E);
+    // console.log(Math);
+    // console.log(Math.PI);
+    // console.log(Math.E);
     
-    const area = 7.7;
-    console.log(Math.round(area));
-    console.log(Math.floor(area));
-    console.log(Math.ceil(area));
-    console.log(Math.trunc(area));
+    // const area = 7.7;
+    // console.log(Math.round(area));
+    // console.log(Math.floor(area));
+    // console.log(Math.ceil(area));
+    // console.log(Math.trunc(area));
 
     // Generating random numbers
 
-    const random =  Math.random();
-    console.log(random); 
-    console.log(Math.round(random * 100));
-    
+    // const random =  Math.random();
+    // console.log(random); 
+    // console.log(Math.round(random * 100));
+
+    // WHILE LOOOPS
+    // let tryAgain = true;
+    // while (tryAgain === true){
+    //     let userNum = Number(prompt('Guess a number between 0 - 10'));
+    //     let guessNum = Math.round(Math.random() * 10);
+    //     if (guessNum === userNum){
+    //         alert('CONGRATULATIONS!!!!!')
+    //         tryAgain = false;
+    //     }
+    //     else{
+    //         alert('WRONG GUESS TRY AGAIN')
+    //         tryAgain = true;
+    //     }
+    // }
