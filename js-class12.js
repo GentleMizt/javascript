@@ -127,16 +127,44 @@
     
     // WHILE LOOPS
     
-    let tryAgain = true;
-    while (tryAgain === true){
-        let userNum = Number(prompt('Guess a number between 0 - 10'));
-        let guessNum = Math.round(Math.random() * 10);
-        if (guessNum === userNum){
-            alert('CONGRATULATIONS BOYY!!!!!')
-            tryAgain = false;
-        }
-        else{
-            alert('WRONG GUESS TRY AGAIN')
-            // tryAgain = true;
-        }
-    }
+    // let tryAgain = true;
+    // while (tryAgain === true){
+    //     let userNum = Number(prompt('Guess a number between 0 - 10'));
+    //     let guessNum = Math.round(Math.random() * 10);
+    //     if (guessNum === userNum){
+    //         alert('CONGRATULATIONS BOYY!!!!!')
+    //         tryAgain = false;
+    //     }
+    //     else{
+    //         alert('WRONG GUESS TRY AGAIN')
+    //         // tryAgain = true;
+    //     }
+    // }
+
+    // DOM MANIPULATION
+    // Creating elements
+    // adding elements
+    // selecting elements and attributes
+    // adding class
+    // stylinng in JS
+
+    // const myBody = document.body;
+    // const para = document.createElement('p');
+    // const para2 = document.createElement('p');
+
+    // myBody.append(para);
+    // myBody.append(para2);
+
+    // // These are the 2 ways in which we can add contents or text to an element using javascript
+    // para.innerHTML = '<strong>Hello Guys</strong>';
+    // para2.innerText = 'How are you doing?;'
+
+    const link = document.querySelector('.about');
+    const myPara1 = document.getElementById('para1');
+    console.log(myPara1); 
+    console.log(link);
+    link.style.color = 'red';
+    link.style.textDecoration = 'none';
+    myPara1.style.fontSize = '2rem';
+    myPara1.style.color = 'blue';
+    
