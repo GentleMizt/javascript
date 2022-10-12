@@ -159,12 +159,19 @@
     // para.innerHTML = '<strong>Hello Guys</strong>';
     // para2.innerText = 'How are you doing?;'
 
-    const link = document.querySelector('.about');
+    const links = document.querySelectorAll('a');
     const myPara1 = document.getElementById('para1');
+
     console.log(myPara1); 
-    console.log(link);
-    link.style.color = 'red';
-    link.style.textDecoration = 'none';
+
     myPara1.style.fontSize = '2rem';
     myPara1.style.color = 'blue';
+
+    //Looping over our node list from querying all the anchor tags 
+
+    links.forEach(link => {
+        link.style.color = 'red';
+        link.style.textDecoration = 'none';
+        link.style.fontSize = '1.5rem';
+    })
     
