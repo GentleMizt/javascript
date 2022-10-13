@@ -159,19 +159,30 @@
     // para.innerHTML = '<strong>Hello Guys</strong>';
     // para2.innerText = 'How are you doing?;'
 
-    const links = document.querySelectorAll('a');
-    const myPara1 = document.getElementById('para1');
+    // const links = document.querySelectorAll('a');
+    // const myPara1 = document.getElementById('para1');
 
-    console.log(myPara1); 
+    // console.log(myPara1); 
 
-    myPara1.style.fontSize = '2rem';
-    myPara1.style.color = 'blue';
+    // myPara1.style.fontSize = '2rem';
+    // myPara1.style.color = 'blue';
 
     //Looping over our node list from querying all the anchor tags 
 
-    links.forEach(link => {
-        link.style.color = 'red';
-        link.style.textDecoration = 'none';
-        link.style.fontSize = '1.5rem';
-    })
+    // links.forEach(link => {
+    //     link.style.color = 'red';
+    //     link.style.textDecoration = 'none';
+    //     link.style.fontSize = '1.5rem';
+    // })
     
+    // const myParag = document.querySelector('p');
+
+    // myParag.setAttribute('id', 'pg');
+    // myParag.getAttribute('id');
+    // console.log(myParag.getAttribute('id'));
+    // myParag.removeAttribute('id');
+
+    // myParag.remove();
+
+    const myParag = document.querySelector('p');
+    myParag.classList.toggle('pgred')
